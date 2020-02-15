@@ -1,0 +1,50 @@
+/* Inspiration from https://codepen.io/penry/pen/xEPKpj */
+input:focus{
+    outline: none;
+}
+.ww-background{
+    background-color: #008080;
+    color: #fff;
+}
+
+
+.ww-taskbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    height: 38px;
+    background-color: #bdbebd;
+    border-top: 2px solid white;
+    padding: 3px;
+}
+
+#startbutton {
+    float: left;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    width: 70px;
+    height: 29px;
+    text-align: right;
+    font-family: sans-serif;
+    padding: 4px;
+    background-color: #bdbebd;
+    background-image: url("http://vignette2.wikia.nocookie.net/logopedia/images/3/32/Microsoft_Windows_Compatible_Icon.png/revision/latest/scale-to-width-down/303?cb=20160806162438");
+    background-size: auto 70%;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+}
+.startbutton-off {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}  
+.startbutton-on {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
