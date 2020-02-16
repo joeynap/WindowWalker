@@ -6,8 +6,6 @@ input:focus{
     background-color: #008080;
     color: #fff;
 }
-
-
 .ww-taskbar{
     position: fixed;
     left: 0;
@@ -18,6 +16,20 @@ input:focus{
     background-color: #bdbebd;
     border-top: 2px solid white;
     padding: 3px;
+}
+.ww-timedate{
+    float: right;
+    background-color: #bdbebd;
+    color: black;
+    font-family: sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 #startbutton {
