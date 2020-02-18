@@ -32,9 +32,36 @@ input:focus{
     border-bottom: 2px solid white;
 }
 
+.ww-startmenu {
+    display: none;
+    position: fixed; bottom: 38px; left: 0;
+    width: 200px; min-height: 400px;
+    color: black; background-color: #bdbebd;
+    border-top: 2px solid white; border-left: 2px solid white;
+    border-bottom: 2px solid rgb(66, 66, 66); border-right: 2px solid rgb(66, 66, 66);
+}
+.ww-startmenu-side{
+    height: 100%;
+    background-color: #0d0099;
+    display: inline-block;
+    width: 25px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.ww-startmenu-head{
+    color: white;
+    transform: rotate(-90deg);
+    width: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
 #startbutton {
     float: left;
-    text-decoration: none;
     outline: none;
     color: black;
     width: 70px;
@@ -43,7 +70,7 @@ input:focus{
     font-family: sans-serif;
     padding: 4px;
     background-color: #bdbebd;
-    background-image: url("http://vignette2.wikia.nocookie.net/logopedia/images/3/32/Microsoft_Windows_Compatible_Icon.png/revision/latest/scale-to-width-down/303?cb=20160806162438");
+    background-image: url('../media/Windows_logo.webp');
     background-size: auto 70%;
     background-position: 5% 50%;
     background-repeat: no-repeat;

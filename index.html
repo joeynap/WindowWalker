@@ -9,11 +9,14 @@
     <script type="text/javascript" src="scripts/layoutFunctions.js"></script>
 </head>
 
-<body class="ww-background">
-    
+<body class="ww-background" onload="getTime();">
+    <div id="startmenu" class="ww-startmenu">
+        <div class="ww-startmenu-side"></div>
+        <div class="ww-startmenu-head"><b>Windows</b>98</div>
+    </div>
     <div class="ww-taskbar">
-        <button id="startbutton" class="startbutton-off" onclick="startPressed()"><b>Start</b></button>
-        <div class="ww-timedate">12:00</div>
+        <button id="startbutton" class="startbutton-off" onclick="startPressed()">Start</button>
+        <div id="timedate" class="ww-timedate">00:00</div>
     </div>
 </body>
 </html>
