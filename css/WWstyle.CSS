@@ -59,6 +59,13 @@ input:focus{
     text-align: left;
     margin-bottom: 5px;
 }
+.ww-startmenu-item{
+    display: block;
+    font-family: sans-serif; color: black;
+    background-color: #bdbebd; border: none;
+    width: 170px; height: 50px;
+    margin-left: 25px;
+} .ww-startmenu-item:hover{color: white;background-color: #0d0099;}
 
 #startbutton {
     float: left;
